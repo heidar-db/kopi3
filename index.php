@@ -12,7 +12,7 @@
 			include 'admin/template/header.php';
 			include 'admin/template/sidebar.php';
 				if(!empty($_GET['page'])){
-					include 'admin/module/'.$_GET['page'].'/heidar.php';
+					include 'admin/module/'.$_GET['page'].'/heidar2.php';
 				}else{
 					include 'admin/template/home.php';
 				}
